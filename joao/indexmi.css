@@ -1,0 +1,32 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    padding: 5vw;
+}
+
+h1,p {
+    background: transparent;
+   text-align: center;
+}
+
+.first_section {
+    margin-top: 15vh;
+    background: #5db982;
+    height: 65vh;
+    border-radius: 35px 0;
+}
+
+.second_section {
+    height: 50vh;
+}
+
+.third_section {
+    background: #5db982;
+    height: 65vh;
+    border-radius: 35px 0;
+}
+
+.fourth_section {
+    height: 80vh;
+}
