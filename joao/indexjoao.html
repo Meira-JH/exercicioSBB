@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indexjoao.css">
+    <script type="text/javascript" src="scriptsbb.js"></script>
+    <title>Congresso Internacional de Botânica</title>
+</head>
+
+<body>
+
+    
+    <header>
+        <nav>
+            <a href="https://www.botanica.org.br/">
+                <img src="img/logosbb.png" 
+                alt="logo do site SBB">
+            </a>
+
+            <ul>
+                <li><a href="https://www.botanica.org.br/">Home</a></li>
+            </ul>
+        </nav>
+
+        <button onclick="ShowForm()" class="subscribe-button" id=buttonmain>
+            Quero me Inscrever!
+
+        </button>
+    </header>
+
+    <button id="black-overlay" onclick="HideForm()"></button>
+
+    <div id="forms">
+        <Button onclick="HideForm()" id="close-form-button">X</Button>
+        <p>Inscreva-se agora no Congresso Internacional de Botânica!</p>
+        <form action="">
+            <div>
+                <label for="safe">Modalidade do inscrição:</label>
+                <select name="safe" id="safe" required>
+                    <option value="volvo">Ouvinte</option>
+                    <option value="volvo">Apresentação de Trabalho</option>
+                    <option value="volvo">Palestrante</option>
+                </select>
+            </div>
+            <div>
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div id="check-box-div">
+                <input type="checkbox" name="contract" id="contract" required>
+                <label for="contract">Não li nada, concordo com tudo.</label>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+
+    <main role="main">
+
+        <section>
+            OLÁ
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div>
+            
+        </div>
+        <div>
+            <h4>Contato</h4>
+            <p class=icon><img src="img/local.png"></p>
+            <span>
+                Sede: SCLN 307 - Bloco B - Sala 218 - Ed. Constrol Center Asa Norte CEP: 70746-520 Brasília/DF
+            </span>
+
+            <p class=icon><img src="img/email.png"></p>
+            <a href="mailto:secretaria@botanica.org.br">secretaria@botanica.org.br</a>            
+
+            <p class=icon><img src="img/email.png"></p>
+                <a href="mailto:secretaria@botanica.org.br">secretaria@botanica.org.br</a>            
+
+            <p class=icon><img src="img/help.png"></p>
+                <a href="mailto:contato@botanica.org.br">contato@botanica.org.br</a>            
+        
+        </div>
+
+        <div class="social-network-buttons">
+            <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" alt="icone de identificação do facebook"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="img/twitter.png" alt="icone de identificação do twitter"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" alt="icone de identificação do instagram"></a>
+        </div>
+    </footer>
+
+    </body>
+    </html>
