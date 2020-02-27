@@ -33,6 +33,8 @@
 
     <button id="black-overlay" onclick="HideForm()"></button>
 
+
+    <!--
     <div id="forms">
         <Button onclick="HideForm()" id="close-form-button">X</Button>
         <p>Inscreva-se agora no Congresso Internacional de Botânica!</p>
@@ -60,12 +62,54 @@
             <button type="submit">Enviar</button>
         </form>
     </div>
+-->
+
+
+<div id="forms">
+    <Button onclick="HideForm()" id="close-form-button">X</Button>
+    <p>Inscreva-se agora!</p>
+    <form action="">
+        <div>
+            <label for="safe">Modalidade da inscrição:</label>
+            <select name="safe" id="safe" required>
+                <option value="volvo">Ouvinte</option>
+                <option value="volvo">Apresentação de Trabalho</option>
+                <option value="volvo">Palestrante</option>
+            </select>
+        </div>
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div id="check-box-div">
+            <input type="checkbox" name="contract" id="contract" required>
+            <label for="contract">Não li nada, concordo com tudo.</label>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+
+
+
+
+
+
+
+
 
 
     <main role="main">
         
             <section class="first_section">
-                <h1>SOU UM TÍTULO</h1>
+             
+                <h1>Congressos Nacionais de Botânica</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur accusamus fugit id ipsa officia maiores sed voluptatem consequuntur quisquam. Voluptas voluptates quis magni nulla rerum, repudiandae obcaecati sed. Harum, ratione!</p>
+
             </section>
     
             <section class="second_section"> 
@@ -74,10 +118,26 @@
             </section>
     
             <section class="third_section">
-    
+                <img src="../joao/img/undraw_Mobile_application_mr4r.svg">
             </section>
     
-            <section class="fourth_section">haha</section>
+            <section class="fourth_section">
+                <h1>Por que ser um Associado</h1>
+                    <ul>
+                        <li><img src="./img/Screenshot_1.png">
+                        <h4>Descontos especiais</h4>
+                        <p>Obter valores especiais de inscrição nos Congressos anuais da Sociedade Botânica do Brasil (SBB) ou em qualquer outro evento promovido pela Sociedade.</p>
+                        </li>
+                        <li><img src="./img/Screenshot_3.png">
+                            <h4>Representatividade</h4>
+                            <p>Contribuir para que a Sociedade Botânica do Brasil represente os botânicos nos diferentes fóruns de Ciência e Tecnologia no Brasil</p>
+                        </li>
+                        <li> <img src="./img/Screenshot_4.png">
+                            <h4>Apoiar a Acta</h4>
+                            <p>Contribuir para a manutenção da Acta Botanica Brasilica, que é a revista da SBB, que possui fator de impacto (IF) e é reconhecida mundialmente.</p>
+                        </li>
+                    </ul>
+            </section>
             
     </main>
 
