@@ -1,6 +1,6 @@
 
 function ShowForm() {
-    document.getElementById("forms").style.right = 0 + 'px';
+    document.getElementById("forms").style.right = 0 + 'vw';
     document.getElementById("black-overlay").style.display = 'flex';
     document.getElementById("body").style.overflowY = 'hidden';
 }
